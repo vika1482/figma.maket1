@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Gardens CM Regular";
+  src: url("../fonts/20011.ttf");
+  src: url("../fonts/20011.ttf?iefix") format("ttf"),
+    url("../fonts/20011.woff") format("woff"),
+    url("../fonts/20011.ttf") format("truetype"),
+    url("../fonts/20011.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+::-moz-selection{background: #FF912B; color: #fff;} 
+::webkit-selection{background: #FF912B; color: #fff;} 
+::selection{background: #FF912B; color: #fff;}
+html,
+body {
+  font-family: Gardens CM Regular;
+  background-color: #e5e5e5;
+  font-size: 18px;
+  color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+@media (max-width: 768px) {
+  p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+h1 {
+  font-size: 64px;
+  color: #ffffff;
+  position: absolute;
+  top: 40%;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 52px;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 29px;
+    top: 45%;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+h2 {
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 992px) {
+  h2 {
+    font-size: 36px;
+  }
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 27px;
+  }
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 22px;
+  }
+}
+h3 {
+  font-size: 26px;
+}
+@media (max-width: 1200px) {
+  h3 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1045px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 910px) {
+  h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 668px) {
+  h3 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 480px) {
+  h3 {
+    font-size: 18px;
+  }
+}
+.vh_100 {
+  height: 100vh;
+}
+/* главный экран */
+.fist_block {
+  background-image: url("../img/фон_курсы.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+@media (max-width: 750px) {
+  .fist_block {
+    background-image: url("../img/фон_курсы\ —\ копия.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+} 
+@media (max-width: 480px) {
+  .fist_block {
+    background-image: url("../img/фон_курсы\ —\ копия\ —\ копия.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+} 
+/* подвал */
+.twelve_block {
+  background-color: #000000;
+  color: #ffffff;
+}

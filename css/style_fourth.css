@@ -1,0 +1,430 @@
+@font-face {
+  font-family: "Gardens CM Regular";
+  src: url("../fonts/20011.ttf");
+  src: url("../fonts/20011.ttf?iefix") format("ttf"),
+    url("../fonts/20011.woff") format("woff"),
+    url("../fonts/20011.ttf") format("truetype"),
+    url("../fonts/20011.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+::-moz-selection{background: #FF912B; color: #fff;} 
+::webkit-selection{background: #FF912B; color: #fff;} 
+::selection{background: #FF912B; color: #fff;}
+html,
+body {
+  font-family: Gardens CM Regular;
+  background-color: #e5e5e5;
+  font-size: 18px;
+  color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 64px;
+  color: #ffffff;
+  position: absolute;
+  top: 40%;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 52px;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 38px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 29px;
+    top: 45%;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+h2,
+h3 {
+  font-size: 36px;
+}
+@media (max-width: 1200px) {
+  h2,
+  h3 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 992px) {
+  h2,
+  h3 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+  h2,
+  h3 {
+    font-size: 24px;
+  }
+}
+h4 {
+  font-size: 24px;
+}
+button div p {
+  font-size: 16px;
+}
+.introduction p {
+  font-size: 24px;
+}
+@media (max-width: 1200px) {
+  .introduction p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 992px) {
+  .introduction p {
+    font-size: 14px;
+  }
+}
+
+.about_course p {
+  font-size: 18px;
+}
+@media (max-width: 1200px) {
+  .about_course p,
+  .about_course ul li {
+    font-size: 16px;
+  }
+}
+@media (max-width: 992px) {
+  .about_course p,
+  .about_course ul li {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .about_course p,
+  .about_course ul li {
+    font-size: 12px;
+  }
+}
+.about_course ul li {
+  list-style-type: none;
+}
+.about_course ul li:before {
+  content: "— ";
+}
+.vh_100 {
+  height: 100vh;
+}
+/* главный экран */
+.fist_block {
+  background-image: url("../img/фон_курсы.gif");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+@media (max-width: 750px) {
+  .fist_block {
+    background-image: url("../img/фон_курсы\ —\ копия.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+@media (max-width: 480px) {
+  .fist_block {
+    background-image: url("../img/фон_курсы\ —\ копия\ —\ копия.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+}
+.img_animate {
+  border-radius: 10px;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 576px) {
+  .img_animate_2 {
+    height: 300px;
+  }
+}
+@media (max-width: 375px) {
+  .img_animate_2 {
+    height: 250px;
+  }
+}
+/* линия */
+.line {
+  background-color: #000000;
+  height: 2px;
+  width: 310px;
+}
+@media (max-width: 1200px) {
+  .line {
+    width: 250px;
+  }
+}
+@media (max-width: 992px) {
+  .line {
+    width: 230px;
+  }
+}
+@media (max-width: 768px) {
+  .line {
+    width: 300px;
+  }
+}
+/* подвал */
+.twelve_block {
+  background-color: #000000;
+  color: #ffffff;
+}
+.fourth_block {
+  background: #ff7a39;
+}
+/* вкладки */
+#v-pills-home-tab,
+#v-pills-profile-tab,
+#v-pills-messages-tab {
+  background: #ffffff;
+  border-radius: 0;
+  color: #000000;
+  height: 150px;
+  -webkit-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 7px 7px 5px 0px rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 576px) {
+  #v-pills-home-tab,
+  #v-pills-profile-tab,
+  #v-pills-messages-tab{
+    height: 100px;
+  }
+}
+@media (max-width: 425px) {
+  #v-pills-home-tab,
+  #v-pills-profile-tab,
+  #v-pills-messages-tab{
+    height: 80px;
+  }
+}
+#v-pills-home-tab:hover,
+#v-pills-profile-tab:hover,
+#v-pills-messages-tab:hover {
+  background: #c1c1c1;
+}
+
+#v-pills-home-tab:focus,
+#v-pills-profile-tab:focus,
+#v-pills-messages-tab:focus {
+  background: #c1c1c1;
+}
+#v-pills-home-tab:active,
+#v-pills-profile-tab:active,
+#v-pills-messages-tab:active {
+  background: #d4d2d2;
+}
+
+/* линия */
+.tab_lesson div button div .line {
+  width: 250px;
+}
+@media (max-width: 1330px) {
+  .tab_lesson div button div .line {
+    width: 220px;
+  }
+}
+@media (max-width: 1200px) {
+  .tab_lesson div button div .line {
+    width: 350px;
+  }
+}
+@media (max-width: 768px) {
+  .tab_lesson div button div .line {
+    width: 250px;
+  }
+}
+@media (max-width: 576px) {
+  .tab_lesson div button div .line {
+    width: 200px;
+  }
+}
+@media (max-width: 425px) {
+  .tab_lesson div button div .line {
+    width: 150px;
+    height: 1px;
+  }
+}
+/* заголовок */
+h4 {
+  font-size: 24px;
+}
+@media (max-width: 1330px) {
+  h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1200px) {
+  h4 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 710px) {
+  h4 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  h4 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 425px) {
+  h4 {
+    font-size: 12px;
+  }
+}
+/* параграф */
+.tab_lesson div button div p {
+  font-size: 16px;
+}
+@media (max-width: 1330px) {
+  .tab_lesson div button div p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 1200px) {
+  .tab_lesson div button div p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 710px) {
+  .tab_lesson div button div p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 425px) {
+  .tab_lesson div button div p {
+    font-size: 10px;
+  }
+}
+/* отзывы */
+.comment {
+  background-color: #ffffff;
+  width: 64.8%;
+  margin: 0px 15px 0px 0px;
+}
+@media (max-width: 1441px) {
+  .comment  {
+    width: 64.7%;
+  margin: 0px 15px 0px 0px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .comment  {
+    width: 80.5%;
+    margin: 0 auto;
+  }
+}
+
+.input_comment {
+  background-color: #f9fafa;
+}
+
+@media (max-width: 1308px) {
+  .input_comment  {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  .input_comment  {
+    width: 90%;
+  }
+}
+ @media (max-width: 576px) {
+  .input_comment  {
+    width: 80%;
+
+  }
+}
+@media (max-width: 992px) {
+  .icon  {
+   width: 18px;
+
+  }
+}
+.comment button {
+  height: 50px;
+  width: 60px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f9fafa;
+}
+@media (max-width: 992px) {
+  .comment button  {
+    height: 40px;
+  width: 40px;
+
+  }
+}
+@media (max-width: 630px) {
+  .comment button  {
+    height: 30px;
+  width: 30px;
+
+  }
+}
+.comment_icon,.telega:hover {
+  border: 1px solid#7A7A7A;
+  background-color: #fdfdfd;
+}
+.comment_icon:focus {
+  background-color: #ff7a39;
+}
+
+.telega {
+  float: right;
+}
+.telega:focus {
+  background-color: #f9fafa;
+}
+.input_comment textarea {
+  border-radius: 0;
+}
+@media (max-width: 768px) {
+  .input_comment textarea  {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .input_comment label  {
+    font-size: 14px;
+  }
+}
+/* подвал */
+.particles {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(53, 154, 248);
+}    

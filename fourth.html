@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="fonts/20011.ttf" />
+    <link rel="stylesheet" type="text/css" href="css/style_fourth.css" />
+    <link rel="stylesheet" type="text/css" href="css/style_menu.css" />
+    <link rel="stylesheet" media="all" href="css/animate.css" />
+
+    <title>3D анимация</title>
+  </head>
+  <body>
+    <header>
+      <nav class="top-right open">
+        <a href="third.html" class="disc l2">
+          <div id="courses">КУРСЫ</div>
+        </a>
+        <a href="second.html" class="disc l3">
+          <div id="mickey">МИККИ МАУС</div>
+        </a>
+        <a href="index.html" class="disc l4">
+          <div id="animation">АНИМАЦИЯ</div>
+        </a>
+        <a class="disc l5 toggle" id="menu"> МЕНЮ </a>
+      </nav>
+    </header>
+    <main class="">
+      <section class="container-fluid fist_block vh_100">
+        <div class="row p-5 d-flex justify-content-center">
+          <h1 class="col-8 col-sm-5 text-center">Мини-курс <br/>по 3D-анимации</h1>
+        </div>
+      </section>
+
+      <section class="second_block my-5 container">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <img src="img/курс.png" class="img_animate img-fluid" />
+          </div>
+          <div class="col-12 col-md-4 mt-4 mt-md-0 introduction fadeInRight wow" data-wow-delay="0.1s">
+            <h2 class="p-0">3D анимация. Введение</h2>
+            <div class="line p-0 mb-3"></div>
+            <p class="my-4">Преподаватель: Владислав Калинин</p>
+            <p class="my-4">ПО для обучения: Autodesk Maya</p>
+            <p class="my-4">Старт курса: В любое время</p>
+            <p class="my-4">Длительность: 3 урока по 15-20 минут</p>
+            <p class="my-4">Стоимость: Бесплатно</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="third_block container">
+        <div class="row">
+          <div class="about_course col-12 d-block d-md-none fadeInRight wow" data-wow-delay="0.1s">
+            <h3>ДЛЯ КОГО ЭТОТ КУРС?</h3>
+            <p class="mt-3">
+              Для тех, кто хочет познакомиться с миром 3D анимации и понять,
+              интересна ли ему профессия аниматора.
+            </p>
+          </div>
+          <div class="col-7 fadeInRight wow" data-wow-delay="0.1s">
+            <div class="about_course d-none d-md-block">
+              <h3>ДЛЯ КОГО ЭТОТ КУРС?</h3>
+              <p class="mt-3">
+                Для тех, кто хочет познакомиться с миром 3D анимации и понять,
+                интересна ли ему профессия аниматора.
+              </p>
+            </div>
+            <div class="mt-5 about_course">
+              <h3>О КУРСЕ</h3>
+              <p class="my-3">
+                Цель курса – передать студенту самые базовые знания о 3D
+                анимации и дать представление о профессии. В рамках занятий вы:
+              </p>
+              <ul class="test2">
+                <li>
+                  узнаете, как установить профессиональный софт на свой
+                  компьютер
+                </li>
+                <li>познакомитесь с базовыми принципами работы 3D аниматора</li>
+                <li>создадите свою первую локацию в 3D пространстве</li>
+                <li>сделаете свою первую анимацию</li>
+              </ul>
+              <p class="mt-3 d-none d-sm-block">
+                Курс состоит из заранее записанных лекций, благодаря чему
+                студенты не привязаны ко времени и могут изучать материал в
+                любой удобный момент.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-5 d-flex my-auto justify-content-center">
+            <img src="img/о_курсе.png" class="img_animate_2 img-fluid" />
+          </div>
+
+          <div class="col-12 d-block d-sm-none about_course">
+            <p class="">
+              Курс состоит из заранее записанных лекций, благодаря чему студенты
+              не привязаны ко времени и могут изучать материал в любой удобный
+              момент.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="
+          fourth_block
+          container-fluid
+         
+          px-0
+          d-flex
+          flex-column
+          
+          align-items-end
+          mt-5
+        "
+      >
+         <!-- горизонтальные -->
+        <div class="d-flex tab_lesson row justify-content-center mx-0">
+         
+          <div
+            class="nav  d-flex flex-column nav-pills col-10 col-xl-4 px-0 "
+            id="v-pills-tab"
+            role="tablist"
+            aria-orientation="vertical"
+          >
+            <button
+              class="nav-link active my-2 d-flex"
+              id="v-pills-home-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-home"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-home"
+              aria-selected="true"
+            >
+              <img
+                src="img/плэй.svg"
+                class=" col-4 col-md-3 flex-fill p-4 p-md-5 p-xl-4 align-self-center"
+                alt=""
+              />
+
+              <div class="col-8 col-md-9 flex-fill align-self-center text-start p-0">
+                <h4>Урок 1. С чего начать?</h4>
+                <div class="line"></div>
+                <p>Знакомство с интерфейсом Maya.</p>
+              </div>
+            </button>
+            <button
+              class="nav-link button_tab my-2 d-flex"
+              id="v-pills-profile-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-profile"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-profile"
+              aria-selected="false"
+            >
+              <img
+                src="img/плэй.svg"
+                class="col-4 col-md-3 flex-fill p-4 p-md-5 p-xl-4 align-self-center"
+                alt=""
+              />
+              <div class="col-8 col-md-9 flex-fill align-self-center text-start p-0">
+                <h4>Урок 2. Моделирование льдинки</h4>
+                <div class="line"></div>
+                <p>
+                  Создание модели льдинки из примитива, используя базовые
+                  операции моделирования.
+                </p>
+              </div>
+            </button>
+            <button
+              class=" nav-link button_tab my-2 d-flex"
+              id="v-pills-messages-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-messages"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-messages"
+              aria-selected="false"
+            >
+              <img
+                src="img/плэй.svg"
+                class="col-4 col-md-3 flex-fill p-4 p-md-5 p-xl-4 align-self-center "
+                alt=""
+              />
+              <div class="col-8 col-md-9 flex-fill align-self-center text-start p-0">
+                <h4>Урок 3. Создание анимации</h4>
+                <div class="line"></div>
+                <p>Делаем прыжок белочки.</p>
+              </div>
+            </button>
+          </div>
+          <div class="tab-content button_tab col-10 col-xl-8  pt-xl-2  mx-auto my-2 my-xl-0 justify-content-center" id="v-pills-tabContent">
+            <div
+              class="tab-pane fade show active " 
+              id="v-pills-home"
+              role="tabpanel"
+              aria-labelledby="v-pills-home-tab"
+            >
+              <video class=" img-fluid" controls="controls" poster="">
+                <source
+                  src="video/Урок 1. С чего начать_ — Яндекс.Браузер 2021-06-06 00-37-22 (online-video-cutter.com).mp4"
+                  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                />
+              </video>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-profile"
+              role="tabpanel"
+              aria-labelledby="v-pills-profile-tab"
+            >
+              <video class=" img-fluid" controls="controls" poster="">
+                <source
+                  src="video/Урок 2. Моделирование льдинки — Яндекс.Браузер 2021-06-06 19-54-31_Trim (online-video-cutter.com).mp4"
+                  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                />
+              </video>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="v-pills-messages"
+              role="tabpanel"
+              aria-labelledby="v-pills-messages-tab"
+            >
+              <video class=" img-fluid" controls="controls" poster="">
+                <source
+                  src="video/Урок 3. Создание анимации — Яндекс.Браузер 2021-06-06 20-54-56 (online-video-cutter.com) (1).mp4"
+                  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'
+                />
+              </video>
+            </div>
+          </div>
+        </div>
+        <!-- отзывы -->
+
+        <div class="comment d-flex row  py-3 p-2 mb-2">
+          <div class=" p-1 p-xl-2 col-2 col-sm-1 col-md-2 d-md-flex ">
+            <button class="comment_icon  m-md-1">
+              <img src="img/dizlike.svg" class="icon"/>
+            </button>
+            <button class="comment_icon my-1 m-md-1">
+              <img src="img/like.svg" class="icon " />
+            </button>
+          </div>
+          
+          <div class="input_comment form-floating col-10 col-sm-11 col-md-10 p-2">
+            <textarea
+              class="form-control"
+              placeholder="Leave a comment here"
+              id="floatingTextarea2"
+            ></textarea>
+            <label for="floatingTextarea2" class="">Расскажите подробнее</label>
+            <button class="m-2 telega"><img src="img/telegram.svg" class="icon " /></button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="twelve_block container-fluid d-flex align-items-end vh_100 particles" id="particles" >
+      <div class="row">
+        <p class="col m-3">© 2021 История анимации</p>
+      </div>
+    </footer>
+
+    <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+    <!-- анимация появления -->
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="js/index.js"></script>
+    <script src="js/particles.min.js"></script>
+    
+    <!-- текст по кругу -->
+    <script src="js/circletype.min.js"></script>
+    <script>
+      new CircleType(document.getElementById("courses")).dir(-1).radius(150);
+      new CircleType(document.getElementById("mickey")).dir(-1).radius(150);
+      var demo5 = new CircleType(document.getElementById("animation"))
+        .dir(-1)
+        .radius(100);
+      $(demo5.element).fitText();
+    </script>
+  </body>
+</html>

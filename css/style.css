@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Gardens CM Regular";
+  src: url("../fonts/20011.ttf");
+  src: url("../fonts/20011.ttf?iefix") format("ttf"),
+    url("../fonts/20011.woff") format("woff"),
+    url("../fonts/20011.ttf") format("truetype"),
+    url("../fonts/20011.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+::-moz-selection{background: #FF912B; color: #fff;} 
+::webkit-selection{background: #FF912B; color: #fff;} 
+::selection{background: #FF912B; color: #fff;}
+html,
+body {
+  font-family: Gardens CM Regular;
+  background-color: #e5e5e5;
+  font-size: 18px;
+  color: #000000;
+}
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+h1{
+    font-size: 64px;
+}
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 42px;
+  }
+}
+@media (max-width:768px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+@media (max-width:576px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width:576px) {
+  p {
+    font-size: 14px;
+  }
+}
+  /* главный экран */
+.fist_block{
+    background-image: url('../img/фон_первой_страницы.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+@media (max-width:768px) {
+  .fist_block {
+    background-image: url('../img/фон_первой_страницы\ —\ копия.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+@media (max-width:576px) {
+  .fist_block {
+    background-image: url('../img/фон_первой_страницы\ —\ копия\ —\ копия.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+}
+.background_for_title{
+    background-color: #ffffff;
+   
+    height: 800px;
+    opacity: 0.8;
+    margin: 0 0 0 auto;
+}
+/* линия */
+.line{
+    background-color: #000000; 
+    height: 2px;
+}
+/* подвал */
+.twelve_block{
+  background-color: #000000;
+  height:100vh;
+  color: #ffffff;
+}

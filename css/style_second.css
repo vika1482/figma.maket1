@@ -1,0 +1,395 @@
+@font-face {
+  font-family: "Gardens CM Regular";
+  src: url("../fonts/20011.ttf");
+  src: url("../fonts/20011.ttf?iefix") format("ttf"),
+    url("../fonts/20011.woff") format("woff"),
+    url("../fonts/20011.ttf") format("truetype"),
+    url("../fonts/20011.svg#webfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+::-moz-selection{background: #FF912B; color: #fff;} 
+::webkit-selection{background: #FF912B; color: #fff;} 
+::selection{background: #FF912B; color: #fff;}
+html,
+body {
+  font-family: Gardens CM Regular;
+  background-color: #e5e5e5;
+  font-size: 18px;
+  color: #000000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width:768px) {
+  p {
+    font-size: 14px;
+  }
+}
+@media (max-width:576px) {
+  p {
+    font-size: 12px;
+   
+  }
+}
+h1 {
+  font-size: 26px;
+  color: #ffffff;
+  position: absolute;
+  top: 60%;
+}
+@media (max-width:1400px) {
+  h1 {
+    font-size: 24px;
+    top: 65%;
+  }
+}
+@media (max-width:992px) {
+  h1 {
+    font-size: 20px;
+ 
+  }
+}
+@media (max-width:768px) {
+  h1 {
+    font-size: 18px;
+    top: 58%;
+  }
+}
+@media (max-width:576px) {
+  h1 {
+    top:46%;
+  }
+}
+@media (max-width:525px) {
+  h1 {
+    font-size: 16px;
+    top: 36%;
+  }
+}
+@media (max-width:390px) {
+  h1 {
+    font-size: 14px;
+    top: 31%;
+  }
+}
+
+h2{
+  font-size: 48px;
+}
+@media (max-width:768px) {
+  h2 {
+    font-size: 36px;
+   
+  }
+}
+@media (max-width:576px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+.vh_100 {
+  height: 100vh;
+}
+/* главный экран */
+.fist_block {
+  background-image: url("../img/фон.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.img_background {
+  height: 640px;
+}
+@media (max-width:1400px) {
+  .img_background {
+    height: 600px;
+  }
+}
+@media (max-width:992px) {
+  .img_background {
+    height: 550px;
+    margin-top: 40px;
+  }
+}
+@media (max-width:768px) {
+  .img_background {
+    height: 450px;
+  }
+}
+@media (max-width:576px) {
+  .img_background {
+    height: 400px;
+    margin-top: 10px;
+  }
+}
+@media (max-width:525px) {
+  .img_background {
+    height: 300px;
+  }
+}
+@media (max-width:390px) {
+  .img_background {
+    height: 250px;
+  }
+}
+/* линия */
+.line {
+  background-color: #000000;
+  height: 2px;
+}
+.line_no {
+  background-color: #e5e5e5;
+
+}
+@media (max-width:1200px) {
+  .line_no {
+    background-color: #000000;
+  }
+}
+/* подвал */
+.twelve_block {
+  background-color: #000000;
+  color: #ffffff;
+}
+/* второй блок */
+.img_MickeyMouse {
+  height: 550px;
+  width: 350px;
+}
+@media (max-width:768px) {
+  .img_MickeyMouse {
+    height: 300px;
+    margin-top: 10px;
+  }
+}
+@media (max-width:576px) {
+  .img_MickeyMouse {
+    height: 200px;
+    margin-top: 70px;
+  }
+}
+@media (max-width:390px) {
+  .img_MickeyMouse {
+    height: 150px;
+    margin-top: 170px;
+  }
+}
+
+/*Текст по кругу*/
+.fifth_block{
+  background-image: url("../img/круг_заголовок.png");
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+  background-position: center; 
+}
+.biology{
+  font-size: 34px;
+}
+@media (max-width:992px) {
+  .biology {
+   font-size: 30px;
+  }
+}
+@media (max-width:768px) {
+  .biology {
+   font-size: 26px;
+  }
+}
+@media (max-width:576px) {
+  .biology {
+   font-size: 28px;
+  }
+}
+@media (max-width:450px) {
+  .biology {
+   font-size: 25px;
+  }
+}
+@media (max-width:400px) {
+  .biology {
+   font-size: 22px;
+  }
+}
+@media (max-width:360px) {
+  .biology {
+   font-size: 20px;
+  }
+}
+.biology{
+  animation-name: rotation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes rotation {
+  0% {
+      transform:rotate(0deg);
+  }
+  100% {
+      transform:rotate(360deg);
+  }
+}
+/* третий блок кролик 
+4 блок 3 колонки с полосками*/
+.third_block,
+.fourth_block {
+  border: 2px solid #000000;
+}
+@media (max-width:1400px) {
+  .Oswald {
+    height: 570px;
+    margin-top: 253px;
+  }
+}
+@media (max-width:1200px) {
+  .Oswald {
+    height: 500px;
+    margin-top: 0px;
+  }
+}
+@media (max-width:768px) {
+  .Oswald {
+    height: 400px;
+  }
+}
+@media (max-width:576px) {
+  .Oswald {
+    height: 300px;
+  }
+}
+.img_collag1,
+.img_collag3{
+  -webkit-transform: rotate(0,0,1,-6deg);
+  transform: rotate3d(0,0,1,-6deg);
+}
+.img_collag1:hover,
+.img_collag2:hover,
+.img_collag3:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition:  1s ease-out;
+  -moz-transition: 1s ease-out;
+  -o-transition: 1s ease-out;
+  transition:  1s ease-out;
+}
+
+.img_collag2{
+  -webkit-transform: rotate(0,0,1,6deg);
+  transform: rotate3d(0,0,1,6deg);
+}
+@media (max-width:768px) {
+  .img_collag1,
+  .img_collag3{
+    height: 200px;
+  }
+}
+@media (max-width:576px) {
+  .img_collag1,
+  .img_collag3{
+    height: 170px;
+  }
+}
+@media (max-width:576px) {
+  .img_collag2{
+    height: 200px;
+  }
+}
+@media (max-width:435px) {
+  .img_collag1,
+  .img_collag3{
+    height: 150px;
+  }
+}
+@media (max-width:362px) {
+  .img_collag1,
+  .img_collag3{
+    height: 130px;
+  }
+}
+
+/* блок с кинолентой */
+.seventh_block {
+  background-image: url("../img/кинолента.png");
+  background-repeat: no-repeat;
+  background-size: 40% auto;
+  background-position: right 100%; 
+  
+}
+@media (max-width:1399px) {
+  .seventh_block {
+    background-position: right 40%;
+  }
+}
+@media (max-width:992px) {
+  .seventh_block {
+    background-position: right 38%;
+  }
+}
+@media (max-width:768px) {
+  .seventh_block {
+    background-size: 35% auto;
+    background-position: right 42%;
+  }
+}
+@media (max-width:576px) {
+  .seventh_block {
+    background-image: url("../img/кинолента\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: 22% auto;
+    background-position: right 48%; 
+  }
+}
+@media (max-width:530px) {
+  .seventh_block {
+    background-size: 24% auto;
+    background-position: right 45%; 
+  }
+}
+@media (max-width:490px) {
+  .seventh_block {
+    background-size: 27% auto;
+    background-position: right 45%; 
+  }
+}
+@media (max-width:426px) {
+  .seventh_block {
+    background-size: 33% auto;
+    background-position: right 42%; 
+  }
+}
+@media (max-width:376px) {
+  .seventh_block {
+    background-size: 41% auto;
+    background-position: right 42%; 
+  }
+}
+@media (max-width:321px) {
+  .seventh_block {
+    background-image: url("../img/кинолента\ \(3\).png");
+    background-repeat: no-repeat;
+    background-size: 40% auto;
+    background-position: right 42%;
+  }
+}
+@media (max-width:1200px) {
+  .logo_Miki{
+    height: 200px;
+  }
+}
+@media (max-width:576px) {
+  .logo_Miki_none{
+    height: 100px;
+  }
+}

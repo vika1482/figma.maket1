@@ -1,0 +1,35 @@
+$(document).ready(function(){
+    $('.slider').slick({
+        arrows:false,
+        dots:true,
+        adaptiveHeight:true,
+        slidesToShow:3,
+        slidersToScroll:1,
+        speed:500,
+        easing:'ease',
+        infinite:true,
+        initiaSlide:0,
+        autoplay:true,
+        autoplaySpeed:2000,
+        pauseOnFocus:true,
+        pauseOnHover:true,
+        pauseOnDotsHover:true,
+        swipe:true,
+        touchThreshold:10,
+        responsive:[
+            {
+                breakpoint:768,
+                settings:{
+                    slidesToShow:2
+                }
+            },
+            {
+                breakpoint:480,
+                settings:{
+                    slidesToShow:1
+                }
+            }
+        ]
+    });
+    
+});
